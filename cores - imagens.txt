@@ -1,0 +1,136 @@
+====================================
+PALETA DE CORES - EXPLORAR MUNDO
+Arquivo de referência das cores e imagens utilizadas no site
+====================================
+
+CORES PRINCIPAIS:
+- Azul Principal: #667eea
+- Roxo Principal: #764ba2
+- Azul Escuro: #2c3e50
+- Vermelho Destaque: #e74c3c
+- Verde Sucesso: #27ae60
+- Azul Botão: #3498db
+
+CORES SECUNDÁRIAS:
+- Cinza Claro: #f8f9fa
+- Cinza Médio: #7f8c8d
+- Cinza Escuro: #34495e
+- Branco: #ffffff
+- Texto Principal: #333333
+
+GRADIENTES DOS DESTINOS:
+- Paris: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+- Tóquio: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)
+- Maldivas: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)
+- Nova York: linear-gradient(135deg, #fa709a 0%, #fee140 100%)
+- Santorini: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)
+- Machu Picchu: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%)
+
+CORES DE ESTADOS:
+- Hover Vermelho: #c0392b
+- Hover Azul: #2980b9
+- Hover Verde: #219a52
+- Foco Azul: rgba(52, 152, 219, 0.1)
+
+CORES DO RODAPÉ:
+- Fundo: #2c3e50
+- Texto: #ecf0f1
+- Links: #3498db
+- Divisor: #34495e
+
+AVISOS E ALERTAS:
+- Fundo Aviso: #fff3cd
+- Borda Aviso: #ffeaa7
+- Texto Aviso: #856404
+
+====================================
+IMAGENS UTILIZADAS NO SITE
+====================================
+
+BANNER PRINCIPAL:
+- Uso: Banner principal da homepage (imagem enviada dentro da pasta img);
+
+DESTINOS TURÍSTICOS:
+
+1. PARIS, FRANÇA
+   - URL: https://cdn.abacus.ai/images/b6b90d0a-91e3-47ed-93fc-23a8b646d269.png
+   - Descrição: Vista aérea de Paris com Torre Eiffel em destaque
+   - Dimensões: 1152x864 (4:3)
+
+2. TÓQUIO, JAPÃO
+   - URL: https://cdn.abacus.ai/images/2313da23-86f3-413a-889e-414897e73295.png
+   - Descrição: Skyline de Tóquio com pagodas e Monte Fuji ao fundo
+   - Dimensões: 1152x864 (4:3)
+
+3. MALDIVAS
+   - URL: https://cdn.abacus.ai/images/5c30ea3c-872d-4af3-bed8-d369edd1f73c.png
+   - Descrição: Vista aérea de bangalôs sobre águas cristalinas
+   - Dimensões: 1152x864 (4:3)
+
+4. NOVA YORK, EUA
+   - URL: https://cdn.abacus.ai/images/c4058c06-0de2-4a99-b36c-ec3a5f22ca66.png
+   - Descrição: Skyline de Manhattan com Empire State Building
+   - Dimensões: 1152x864 (4:3)
+
+5. SANTORINI, GRÉCIA
+   - URL: https://cdn.abacus.ai/images/106bf3b9-2f39-4426-ae97-e54ec35fc0db.png
+   - Descrição: Casas brancas e azuis típicas de Santorini
+   - Dimensões: 1152x864 (4:3)
+
+6. MACHU PICCHU, PERU
+   - URL: https://cdn.abacus.ai/images/ee798e97-5117-4a0e-9523-cede49ad31a0.png
+   - Descrição: Ruínas incas nas montanhas andinas com lhamas
+   - Dimensões: 1152x864 (4:3)
+
+EQUIPE DA EMPRESA:
+
+1. MARIA SILVA - Consultora Sênior
+   - URL: https://cdn.abacus.ai/images/126aad41-c3e4-4638-92df-ec91b40561fd.png
+   - Descrição: Mulher profissional em ambiente de escritório
+   - Dimensões: 1024x1024 (1:1)
+
+2. JOÃO SANTOS - Especialista em Aventura
+   - URL: https://cdn.abacus.ai/images/f1df865c-41fa-463e-a63d-787067db1a06.png
+   - Descrição: Homem profissional em camisa social
+   - Dimensões: 1024x1024 (1:1)
+
+3. ANA COSTA - Consultora de Viagens
+   - URL: https://cdn.abacus.ai/images/97c10466-83e6-4926-be15-a9780f024fda.png
+   - Descrição: Jovem profissional feminina em blazer
+   - Dimensões: 1024x1024 (1:1)
+
+====================================
+ESPECIFICAÇÕES TÉCNICAS
+====================================
+
+
+
+EFEITOS VISUAIS:
+- Hover: Transform translateY(-10px) nos cards
+- Zoom: Scale(1.05) nas imagens
+- Transições: 0.3s para suavidade
+- Sombras: box-shadow para profundidade
+
+OTIMIZAÇÕES:
+- object-fit: cover para manter proporção
+- border-radius: 15px para cantos arredondados
+- backdrop-filter: blur() no banner
+- Overlay: rgba(0,0,0,0.4) para legibilidade
+
+====================================
+NOTAS PARA DESENVOLVEDORES
+====================================
+
+1. As imagens são geradas por IA e livres de direitos autorais (Com execeção a imagem do baner.)
+2. URLs hospedadas na CDN
+3. Imagens otimizadas para web (qualidade/tamanho)
+4. Alt text descritivo para acessibilidade
+5. WebP como formato alternativo recomendado para produção
+
+====================================
+CRÉDITOS
+====================================
+
+Imagens geradas por: Seedream AI
+Desenvolvido para: Projeto educacional Site_curso-UC1
+Data: Junho 2025
