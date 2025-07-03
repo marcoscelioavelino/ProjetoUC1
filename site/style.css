@@ -17,11 +17,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     .title {
-     
-            text-align: center;
-            font-size: 2rem;
-            /* margin-top: 2.5em; */
-     
+
+        text-align: center;
+        font-size: 2rem;
+        /* margin-top: 2.5em; */
+
     }
 
 }
@@ -30,7 +30,7 @@ body {
 
 .headerHome {
     width: 100%;
-    height: auto;
+    height: 3.3em;
     display: flex;
     flex-direction: row;
     background-color: #667eea;
@@ -38,7 +38,7 @@ body {
     align-items: center;
 
     .logoHome {
-        width: 15%;
+        width: 20%;
         padding: 10px;
         color: #fff;
         text-align: center;
@@ -54,6 +54,14 @@ body {
     ul li a {
         text-decoration: none;
         color: #fff;
+        padding: .5em;
+        transition: .3s;
+    }
+
+    ul li a:hover {
+        background-color: #2c3e50;
+        border-radius: 6px;
+        border: 1px solid #fff;
     }
 
 }
@@ -76,7 +84,7 @@ body {
 
     .banner {
         box-sizing: border-box;
-        max-width: 40em; 
+        max-width: 40em;
         height: 25em;
         background-color: #000;
         display: grid;
@@ -90,7 +98,7 @@ body {
         text-align: center;
         padding: 50px;
         line-height: 1.5;
-      
+
     }
 
     .banner p {
@@ -116,6 +124,9 @@ body {
 }
 
 /* FIM SECTION BANNER -------------------------------------- */
+
+
+/* SECTION CARDS ----------------------------------------------- */
 
 .sectionCards {
     margin: 0 auto;
@@ -223,7 +234,7 @@ body {
 
 .explorarMundo {
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
     height: auto;
     margin-top: 4em;
 
@@ -234,24 +245,35 @@ body {
         margin: 0 auto;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
         grid-template-rows: auto;
         justify-items: center;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
         margin-top: 3em;
 
         .cardExplorar {
-            width: 18em;
-            height: 18em;
+            display: flex;
+            flex-direction: column;
+            justify-content:  center;
+            align-items: center;
+            box-sizing: border-box;
+            width: 16em;
+            height: 16em;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 1px 1px 30px #0000004d;
             text-align: center;
-    
+            margin: 0;
+            padding: 0;
+            line-height: 1;
 
-            h1 {
-                font-size: 3.5rem;
+            .iconeCard {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: .9rem;
             }
 
         }
@@ -269,4 +291,5 @@ footer {
     align-items: center;
     color: #ecf0f1;
     margin-top: 4em;
+    font-size: .85rem;
 }

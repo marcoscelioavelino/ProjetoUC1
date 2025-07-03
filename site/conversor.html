@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="headerHome">
+        <div class="logoHome">
+            <h2>✈️ Explorar Mundo</h2>
+        </div>
+        <nav>
+            <ul>
+                <li> <a class="navLinks" href="index.html">Início </a></li>
+                <li> <a class="navLinks" href="sobre.html">Sobre</a></li>
+                <li> <a class="navLinks" href="#">Conversor</a></li>
+                <li> <a class="navLinks" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="sectionConversor">
+
+            <div class="textosCoversor">
+                <h1 class="title">Conversor de Moedas</h1>
+                <p>Converta valores entre diferentes moedas para planejar melhor sua viagem internacional</p>
+            </div>
+
+            <div class="containerConversor">
+
+
+                <h1>Conversão de Moedas</h1>
+
+                <span>
+                    <label for="valor">Valor em reais(R$)</label>
+                    <input type="text" id="valor" placeholder="Digite o valor">
+                </span>
+
+                <span class="moedas">
+                    <label for="moeda">Converter para:</label>
+                    <select name="" id="moeda">
+                        <option value="USD">Dólar(USD)</option>
+                        <option value="EUR">Euro(EUR)</option>
+                        <option value="GBP">Libra(GBP)</option>
+                    </select>
+                </span>
+
+                <span id="resultado"></span>
+
+                <span class="botoesConversao">
+                    <button onclick="converter()">Converter</button>
+                    <button onclick="limpar()">Limpar</button>
+                </span>
+
+            </div>
+
+        </section>
+
+        <section class="explorarMundo">
+            <h1>Informações Importantes</h1>
+
+            <div class="cardsExplorar">
+                <div class="cardExplorar">
+                    <h1>🎯</h1>
+                    <h3>Planejamento personalizado</h3>
+                    <p>Cada viagem é única e planejada especialmente para você</p>
+                </div>
+
+                <div class="cardExplorar">
+                    <h1>💰</h1>
+                    <h3>Melhor preço garantido</h3>
+                    <p>Encontramos as melhores ofertas e condições para sua viagem</p>
+                </div>
+
+                <div class="cardExplorar">
+                    <h1>🌟</h1>
+                    <h3>Experiência única</h3>
+                    <p>Mais de 10 anos criando momentos inesquecíveis</p>
+                </div>
+
+                <div class="cardExplorar">
+                    <h1>🛡️</h1>
+                    <h3>Suporte 24h</h3>
+                    <p>Estamos sempre disponíveis para
+                        ajudar você</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
